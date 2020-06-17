@@ -1,27 +1,33 @@
 .btn-red{
 	background: #E93F33;
 	color: white;
-	padding:10 25px;
-	border-radius: 30px;
+	padding:100 180px;
+	border-radius: 180px;
 	transition: ease 0.8s;
 
 }
 .btn-red:hover {
 	opactiy: 1;
-	box-shadow: 1px 3px rgba(30, 30, 30, 0.9)
+	box-shadow: 24px 80px rgba(30, 30, 30, 0.9)
 
 }
 .btn-blue{
-	background: #E93F33;
+	background: #0BB5FF;
 	color: white;
-	padding:10 25px;
-	border-radius: 30px;
+	padding:100 180px;
+	border-radius: 80px;
 	transition: ease 0.8s;
 }
-.btn-blue{
-	background: #E93F33;
-	color: white;
-	padding:10 25px;
-	border-radius: 30px;
-	transition: ease 0.8s;
+.btn-red:hover {
+	opactiy: 1;
+	box-shadow: 4px 12px rgba(30, 30, 30, 0.9)
+	}
+.btn-blue:hover{
+	box-shadow: 12px 24px rgba(30, 30, 30.0.9);
 }
+
+ .big-btn {
+        width: 90px;
+        height: 40px;
+    }
+

@@ -1,0 +1,53 @@
+
+/*import fonts and external*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet');
+/*import all individual comps*/
+@import url('btn.css');
+@import url('avatar.css');
+@import url('banner.css')
+.container{
+	width: 800px;
+	margin: 10px 13px 120px 0px
+}
+/* set css style general for all*/
+.text-center {
+	text-align: center;
+}
+body {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	background-image: url("https://www.luxreview.com/wp-content/uploads/upload/system/2018/07/10152008.jpg")
+}
+p {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+}
+h1, h2, h3 {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+}
+h1 {
+	font-weight: bold;
+	font-size: 42px;
+	padding: 10px;
+	background-opacity: 0.9
+}
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+
+}
+h3 {
+	font-size: 28px;
+	font-weight: bold;
+	background-color: #964B00;
+	background-opacity: 0.9;
+}
+a {
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 4px;
+}
+img {
+	background: white;
+}
