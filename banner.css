@@ -1,15 +1,23 @@
 .banner{
-	height: 80vh;
+	height: 90vh;
+	display: flex;
+	align-items: center;
 	background-size: cover;
-	background: #0BB5FF;
 	border-radius: 180px;
 	/*background: linear-gradient(rgba(20, 100, 10, 0.3));*/
 }
-.banner-flex{
-	height: 100%;
+.banner-large{
+	height: 90vh;
 	display: flex;
 	align-items: center;
-	padding: 100 180px;
-	border-radius: 180px
-	background: #0BB5FF;
+	padding: 30px;
+	border-radius: 90px;
+	background-color:#4AC948;
+	/*background: #0BB5FF;*/
+}
+.banner-box{
+	height: 30vh;
+	width: 50vh;
+	/*align-items: center;*/
+	background-size: cover;
 }

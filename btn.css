@@ -12,10 +12,10 @@
 
 }
 .btn-blue{
-	background: #0BB5FF;
+	background: #62B1F6;
 	color: white;
-	padding:100 180px;
-	border-radius: 80px;
+	padding:16 24px;
+	border-radius: 70px;
 	transition: ease 0.8s;
 }
 .btn-red:hover {
@@ -25,8 +25,22 @@
 .btn-blue:hover{
 	box-shadow: 12px 24px rgba(30, 30, 30.0.9);
 }
+.btn-brown{
+	background: #964B00;
+	color: white;
+	padding: 16 24px;
+	border-radius: 70px;
+	transition: ease 0.8s;
 
- .big-btn {
+}.btn-green{
+	background: #4AC948;
+	color: white;
+	padding: 16 24px;
+	border-radius: 70px;
+	transition: ease 0.8s;
+
+}
+.big-btn {
         width: 90px;
         height: 40px;
     }

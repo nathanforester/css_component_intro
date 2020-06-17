@@ -1,22 +1,82 @@
 
 /*import fonts and external*/
-@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap' rel="stylesheet");
 /*import all individual comps*/
 @import url('btn.css');
 @import url('avatar.css');
-@import url('banner.css')
+@import url('banner.css');
 .container{
 	width: 800px;
-	margin: 10px 13px 120px 0px
+	margin: 16px auto;
 }
 /* set css style general for all*/
 .text-center {
 	text-align: center;
 }
+.text-left{
+	text-align: left;
+}
+.display-flex{
+	display: flex;
+}
+.gradient-container-red{
+	color: white;
+	background-color: red;
+	height: 100px;
+	width: 300px;
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;  
+}
+.gradient-container-red-big{
+	color: white;
+	background-color: red;
+	height: 300px;
+	width: 900px;
+	display: flex;
+	justify-content: space-around; 
+	align-items: center
+}
+.gradient-container-airbnb-big{
+	color: black;
+	background-color: white;
+	height: 200px;
+	width: 150px;
+	/*justify-content: space-around; */
+	align-items: center;
+	align-content: center;
+	border-radius: 180px;
+}
+.gradient-container-picture{
+	color: white;
+	background-image: url("https://source.unsplash.com/random/300x300");
+	height: 100px;
+	width: 300px;
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;  
+}
+.airbnb-card {
+  padding: 1px 8px;
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  background-color: #f1f1f1;
+}
+ li a {
+  display: block;
+  
+}
 body {
 	font-family: 'Prompt', sans-serif;
 	color: white;
-	background-image: url("https://www.luxreview.com/wp-content/uploads/upload/system/2018/07/10152008.jpg")
+	background-image: url("https://www.luxreview.com/wp-content/uploads/upload/system/2018/07/10152008.jpg");
+	background-size: cover;
+
 }
 p {
 	font-family: 'Prompt', sans-serif;
@@ -30,7 +90,7 @@ h1 {
 	font-weight: bold;
 	font-size: 42px;
 	padding: 10px;
-	background-opacity: 0.9
+	background-opacity: 0.9;
 }
 h2 {
 	font-size: 32px;
@@ -40,14 +100,21 @@ h2 {
 h3 {
 	font-size: 28px;
 	font-weight: bold;
-	background-color: #964B00;
 	background-opacity: 0.9;
+}
+h4 {
+	font-size: 16px;
+	font-weight: bold;
+}
+h5 {font-size: 8px;
+}
+h4, h5{
+	font-family: 'Prompt', sans-serif;
+	font-color: #000000;
+
 }
 a {
 	font-size: 20px;
 	text-decoration: none;
-	margin-left: 4px;
 }
-img {
-	background: white;
-}
+
